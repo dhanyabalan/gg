@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Welcome to Kerala Tourism - Official Website of Department of Tourism, Government of Kerala</title>
+     <link rel="stylesheet" href="css/kerala.css">
+     
+     <script async src="kerala.js"></script> 
+<script async src="lightbox.js"></script>
+     
+</head>
+<body>
+    <!-- header -->
+    <header class="head">
+        <div class="logo">
+            <img src="images\kerala-tourism-title.png" alt="logo" > 
+            <div class="menu">
+                <a href="index.html" >Home</a>
+                <a href="destination.html" target="_blank">Where To Go </a>
+                <a href="thingstodo.html" target="_blank">Things To Do</a>
+                <a href="login.html" target="_blank">Login/Sign Up</a>
+            </div>
+
+        </div>
+        
+
+    </header>
+    <!-- header -->
+
+    
+       
+<!-- w3schools -->
+
+   <!-- Slideshow container -->
+ <div class="slideshow-container">
+
+    <!-- Full-width images with number and caption text -->
+    <div class="mySlides fade">
+      <img src="images\go-caravanning-1920x6501.jpg" style="width:100%">
+    </div>
+  
+    <div class="mySlides fade"> 
+      <img src="images\ranipuram1920.jpg" style="width:100%">
+    </div>
+  
+    <div class="mySlides fade">  
+      <img src="images\romancing-the-rains1920x650.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides fade">  
+        <img src="images\responsible_tourism.jpg" style="width:100%">
+    </div>
+
+ </div>
+ <!-- end slideshow -->
+    
+
+              
+
+
+
+<!-- marquee -->
+<div>
+<h1 id="marq"><marquee width="100%" behavior="scroll" direction="right" height="100px">
+  <!-- bahaviour="alternate" also used -->
+  Due to COVID-19 pandemic, all the festivals in temples and other events have been suspended for a while.</marquee>
+<br><marquee behavior="scroll" direction="left" >
+Ministry of Tourism launches ‘Stranded in India’ portal to help foreign tourists stuck in various parts of India (01-04-2020)
+</marquee></h1>
+</div>
+<!-- end marquee -->
+
+
+
+
+  <!--  -->
+ <!-- Images used to open the lightbox -->
+ <div class="row">
+         <p class="para">Our Top Destinations</p>
+         <div class="column">
+             <img src="images\aralam-1.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow">
+          </div>
+  <div class="column">
+    <img src="images\kottoor-1.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow">
+  </div>
+  <div class="column">
+    <img src="images\thusharagiri_30072018095950.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow">
+  </div>
+  
+  <div class="column">
+    <img src="images\alappuzha-480x270-2.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow">
+  </div>
+</div>
+
+<!-- The Modal/Lightbox -->
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides1">
+    
+      <img src="images\aralam-1.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides1">
+     
+      <img src="images\kottoor-1.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides1">
+     
+      <img src="images\thusharagiri_30072018095950.jpg" style="width:100%">
+    </div>
+    <div class="mySlides1">
+    
+      <img src="images\alappuzha-480x270-2.jpg" style="width:100%">
+    </div>
+
+    <!-- Next/previous controls -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <!-- Caption text -->
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+    <!-- Thumbnail image controls -->
+    <div class="column">
+      <img class="demo" src="images\aralam-1.jpg" onclick="currentSlide(1)" alt="Aralam">
+    </div>
+    
+    <div class="column">
+      <img class="demo" src="images\kottoor-1.jpg" onclick="currentSlide(2)" alt="Kottor">
+    </div>
+   
+    <div class="column">
+      <img class="demo" src="images\thusharagiri_30072018095950.jpg" onclick="currentSlide(3)" alt="Thusharigi">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="images\alappuzha-480x270-2.jpg" onclick="currentSlide(4)" alt="Alappuzha">
+    </div>
+  </div>
+  
+</div>
+
+<div >
+  <!-- <a href="#" class="button">Link Button</a> -->
+<a href="destination.html" target="_blank" class="destination">Explore Our Destinations</a>
+</div>
+<div>
+  <a  href="alappuzha.html" target="_blank"><img  src="kerala\no2.jpg" alt="Alappuzha"></a>
+</div>
+
+
+<!-- footer -->
+<footer>
+  <a  href="https://www.keralatourism.org/dtpc" target="_blank"><img  src="image1\dtpc.png"></a> 
+  <!-- <h4 id="foot">www.kerala tourism website.com</h4></footer> -->
+</footer>
+<!-- footer -->
+
+</body>
+
+</html>
