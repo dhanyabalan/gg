@@ -1,0 +1,88 @@
+
+*{ 
+    padding: 0;
+    margin: 0;
+} 
+header{
+    height: fit-content;
+
+    background-color:blue;
+    text-decoration: none;
+    
+    /* height: 5%; */
+}
+.logo{
+    margin-left: 2%;
+}
+.menu{
+    float:right;
+    margin-top: 3%;
+}
+.menu a{
+    text-decoration: none;
+    margin-right: 20px;
+    color:red;
+
+}
+.menu A:hover{
+    /* background-color: cadetblue; */
+    color: crimson;
+    transition: 0.55 ease-in-out;
+}
+
+
+body{
+    /* background-color: peachpuff; */
+    background-image: image("kollam\athirapally-falls-in.jpg") ;
+    background-size: cover;
+}
+#home {
+    left: 0px;
+    width: 46px;
+    /* background: url('image1\icons8-home-48.png') 0 0; */
+    margin-left: 10px;
+  }
+  
+
+
+
+
+.login{
+    float: left;
+    border: 2px solid blue;
+    background-color: white;
+    height: 260px;
+    width: 240px;
+    margin-left: 25%;
+    margin-top: 3%;
+     padding: 30px;  
+}
+.login input{
+    height: 1.8em;
+    width: 80%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+  .login button /*.login #id of button{ */{
+    height: 1.8em;
+    width: 80%;
+    background-color: darkcyan;
+    border: 2px black;
+ }
+ .container{
+     /* border: 1px solid white; */
+     margin-top:130px ;
+     margin-left: 2.7%;
+ }
+
+
+
+ 
+footer{
+    
+    background-color: silver;
+    margin-top: 40%;
+  
+}
+footer a{
+    margin-left: 10%;
+}
